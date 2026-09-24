@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cuuhotuankiem.vn/sitemap.xml
+Sitemap: https://cuuhotuankiem.vercel.app/sitemap.xml
