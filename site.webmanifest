@@ -1,0 +1,14 @@
+{
+  "name": "Cứu Hộ Tuấn Kiểm",
+  "short_name": "Tuấn Kiểm",
+  "description": "Cứu hộ ô tô 24/7 tại Ninh Bình, Nam Định, Hà Nam, Hà Nội, Thanh Hóa.",
+  "lang": "vi",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F8FAFC",
+  "theme_color": "#E11D48",
+  "icons": [
+    { "src": "/assets/img/logo-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
