@@ -3,7 +3,7 @@ import { next, waitUntil } from '@vercel/functions';
 // Ghi log IP của khách đến từ quảng cáo Google (URL có gclid) vào Upstash Redis.
 // Lỗi ở bất cứ bước nào cũng bỏ qua: trang web luôn mở bình thường.
 export const config = {
-  matcher: ['/', '/cuu-ho-cao-toc-cao-bo-mai-son'],
+  matcher: ['/', '/cuu-ho-cao-toc-cao-bo-mai-son', '/cuu-ho-lop-ninh-binh', '/cuu-ho-xe-o-to-ninh-binh'],
 };
 
 const TTL_SECONDS = 30 * 24 * 60 * 60; // phương án dự phòng, script trên máy sẽ xóa sớm hơn
